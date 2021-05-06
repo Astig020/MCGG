@@ -1,5 +1,5 @@
 {
-	"name": "MCGG VS",
+	"name": "AstigMC",
 	"description": "A web-based minecraft server",
 	"keywords": [
 		"games",
@@ -7,7 +7,13 @@
 	],
 	"logo": "https://raw.githubusercontent.com/Milkenm/MCGG/master/logo.png",
 	"repository": "https://github.com/Astig020/MCGG",
-	"env": {
+	"stack": "heroku-18",
+        "env": {
+         "MINECRAFT_EULA": {
+      "description": "Do you accept the Minecraft EULA?",
+      "value": "true",
+      "required": true
+    },
 		"DROPBOX_API_TOKEN": {
 			"description": "Your personal dropbox API token  (Goto https://www.dropbox.com/developers/apps Click on create app, Select Dropbox API, Select App folder, Name the app & create it, Click on the app, Goto Generated access token, Click on Generate and Copy the key.) ",
 			"required": true
