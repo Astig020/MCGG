@@ -6,7 +6,7 @@
 		"minecraft"
 	],
 	"logo": "https://raw.githubusercontent.com/Milkenm/MCGG/master/logo.png",
-	"repository": "https://github.com/Astig020/MCGG",
+	"repository": "https://github.com/Milkenm/MCGG",
 	"stack": "heroku-18",
         "env": {
          "MINECRAFT_EULA": {
